@@ -1,12 +1,16 @@
 Nom;Signification;Type;Format;Taille;Obligatoire;Calculée
-titre;Titre de l'article;Texte;Texte;255;Oui;Non
-extrait;Court résumé de l'article affiché dans les listes;Texte;Texte long;500;Non;Non
-contenu;Contenu complet de l'article;Texte;Texte long;500;Oui;Non
-image_couverture;Image de couverture de l'article;Image;Fichier/URL;255;Oui;Non
-date_publication;Date de publication de l'article;Date;JJ/MM/AAAA;;Oui;Non
-temps_lecture;Temps de lecture estimé de l'article;Nombre;Nombre de minutes;;Non;Oui
+id_article;Identifiant unique de l'article;Int;Entier;11;Oui;Non
+titre_article;Titre de l'article;Texte;Texte;255;Oui;Non
+contenu_article;Contenu complet de l'article;Texte;Texte long;500;Oui;Non
+image_couverture_article;Image de couverture de l'article;Image;Fichier/URL;255;Oui;Non
+date_publication_article;Date de publication de l'article;Date;JJ/MM/AAAA;;Oui;Non
+id_categorie;Identifiant unique de la catégorie;Int;Entier;11;Oui;Non
 nom_categorie;Nom de la catégorie de l'article;Texte;Texte;100;Oui;Non
-nom_prenom;Nom et prénom de l'auteur;Texte;Texte;100;Oui;Non
+color_categorie;Couleur de la catégorie;Texte;Texte;255;Oui;Non
+icon_categorie;icon de categégorie;Texte;Texte;255;Oui;Non
+id_auteur;Identifiant unique de l'auteur;Int;Entier;11;Oui;Non
+nom_auteur;Nom de l'auteur;Texte;Texte;100;Oui;Non
+prenom_auteur;Prenom de l'auteur;Texte;Texte;100;Oui;Non
 photo_auteur;Photo de profil de l'auteur;Image;Fichier/URL;255;Non;Non
-email;Adresse email de connexion de l'auteur;Texte;Email;255;Oui;Non
-password;Mot de passe de connexion de l'auteur;Texte;Texte (haché);255;Oui;Non
+email_auteur;Adresse email de connexion de l'auteur;Texte;Email;255;Oui;Non
+password_auteur;Mot de passe de connexion de l'auteur;Texte;Texte (haché);255;Oui;Non
