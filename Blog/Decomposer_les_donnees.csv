@@ -1,0 +1,5 @@
+Entite;Identifiant;Proprietes
+Client;Id_client;nom_client ,email_client
+Produit;id_produit;nom_produit ,prix_produit
+Commande;numero_commande;date_commande ,Id_client
+Lign_commande;numero_commande + id_produit;quantite_commande
