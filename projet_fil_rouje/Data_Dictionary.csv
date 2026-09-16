@@ -1,0 +1,25 @@
+Interface,Name,Signification,Type,Obligatoire,Calcule
+Driver,id_driver,Unique identifier (PK) of the driver,INT,oui,non
+Driver,first_name,First name of the driver,VARCHAR,oui,non
+Driver,last_name,Last name of the driver,VARCHAR,oui,non
+Driver,phone,Phone number of the driver,VARCHAR,oui,non
+Driver,license_number,Driving license number of the driver,VARCHAR,oui,non
+Delivery,id_delivery,Unique identifier (PK) of the delivery,INT,oui,non
+Delivery,departure_location,Location where the delivery starts,VARCHAR,oui,non
+Delivery,destination,Delivery destination,VARCHAR,oui,non
+Delivery,delivery_date,Date and time of the delivery,DATETIME,oui,non
+Delivery,status,Current status of the delivery,ENUM,oui,non
+Delivery,weight,Weight of the goods being delivered,DECIMAL,oui,non
+Delivery,id_driver,Identifier of the driver assigned to the delivery,INT,oui,non
+Delivery,id_vehicle,Identifier of the vehicle used for the delivery,INT,oui,non
+Delivery,id_goods_type,Identifier of the type of goods being delivered,INT,oui,non
+GoodsType,id_goods_type,Unique identifier (PK) of the goods type,INT,oui,non
+GoodsType,name,Name of the goods type,VARCHAR,oui,non
+GoodsType,description,Description of the goods type,TEXT,non,non
+Vehicle,id_vehicle,Unique identifier (PK) of the vehicle,INT,oui,non
+Vehicle,registration_number,Registration number of the vehicle,VARCHAR,oui,non
+Vehicle,brand,Brand of the vehicle,VARCHAR,oui,non
+Vehicle,model,Model of the vehicle,VARCHAR,oui,non
+Vehicle,vehicle_type,Type of vehicle,ENUM,oui,non
+Vehicle,capacity,Maximum load capacity of the vehicle,DECIMAL,oui,non
+Vehicle,status,Current status of the vehicle,ENUM,oui,non
